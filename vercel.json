@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "installCommand": "npm install",
-  "buildCommand": "npm run build",
+  "installCommand": "npm --prefix frontend install && npm --prefix backend install",
+  "buildCommand": "npm --prefix frontend run build",
   "outputDirectory": "frontend/dist",
   "rewrites": [
     {
