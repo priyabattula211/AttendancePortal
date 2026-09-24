@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+@import "./portal.css";
 @theme {
   --color-brand-50: #f8fafc;
   --color-brand-100: #f1f5f9;
